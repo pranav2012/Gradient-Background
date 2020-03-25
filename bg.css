@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgba(164,255,184), rgba(0,212,255));
+}
+.heading{
+text-align: center;
+font-family: cursive;
+font-size: 50px;
+text-transform: uppercase;
+}
+.cbox{
+display: flex;
+margin: 10px;
+justify-content: center;
+}
+.fir{
+    margin: 10px;
+}
+.fir input, .sec input{
+    border: 1px solid white;
+    height: 4vh;
+}
+.sec{
+    margin: 10px;
+}
+.css_info{
+text-align: center;
+color: rgb(94, 94, 94);
+font-size: 18px;
+font-family: cursive;
+}
