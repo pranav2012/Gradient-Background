@@ -32,3 +32,27 @@ color: rgb(94, 94, 94);
 font-size: 18px;
 font-family: cursive;
 }
+
+@media screen and (max-width:800px){
+    .css_info{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 28px;
+    }
+    .fir input, .sec input{
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .css_info{
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 24px;
+    }
+}
+
+
+
